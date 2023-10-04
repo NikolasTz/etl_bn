@@ -1,0 +1,10 @@
+{
+
+  "inputPath": "pathToFile",
+  "host": "host_url",
+  "port": "port_number",
+  "topic": "topic_name",
+  "servers": "bootstrap_servers",
+  "numPartitions": "partitions"
+
+}
