@@ -1,0 +1,5 @@
+numpy>=1.24.4
+pandas>=1.5.3
+apache-airflow>=2.4.0
+hdfs>=2.7.2
+confluent-kafka>=1.8.2
