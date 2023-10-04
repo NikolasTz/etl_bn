@@ -15,11 +15,12 @@ The integration of the Apache Airflow boils down to the fact that we want to exp
 the functionality of provided scheduler in order to offer the following steps scheduled:
 
     1. Load the dataset from the inputPath local directory
-    2. Make some transforms(cleansing,add partition_id column) on dataset and write some stats of it to the HDFS directory
-    3. Load the dataset from the HDFS directory and write it to Apache Kafka
+    2. Make some transforms(cleansing,add partition_id column) on dataset 
+    3. Write some stats of dataset to the HDFS directory
+    4. Load the dataset from the HDFS directory and write to Apache Kafka
 
 ## Architecture
-![Arch](img/etl_bn)
+![Arch](img/etl_bn.png)
 
 ## Configuration
 
