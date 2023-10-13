@@ -9,7 +9,7 @@
 
 ## Description
 
-A simple ETL process for Bayesian Network using Apache Airflow,Apache Kafka and HDFS.
+An ETL process for Bayesian Network using Apache Airflow,Apache Kafka and HDFS.
 
 The integration of the Apache Airflow boils down to the fact that we want to exploit
 the functionality of provided scheduler in order to offer the following steps in a schedule way:
